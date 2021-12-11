@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscriptions</title>
+</head>
+
+<body>
+    <h1>Get Groovy</h1>
+    <a href="index.html">Acceuil</a>
+    <a href="Albums">Albums</a>
+    <a href="#Promotions">Promotions</a>
+    <a href="Contacts">Contacts</a>
+    <a href="Inscriptions">Inscriptions</a><br>
+    <hr>
+    <img src="boutique.jpg" alt="boutique" width="1200px" height="400px">
+    <h2>Welcome to the Grove</h2>
+    <hr>
+    <table border="1">
+        <form action="index.html" method="post">
+            <tr>
+                <td rowspan="17" align="center">Fiche personnelle</td>
+            </tr>
+            <tr>
+                <td rowspan="2" align="center">Nom</td>
+            </tr>
+            <tr>
+                <td>
+                    <form action="Inscriptions.html" method="post">
+                        <input type="text" required maxlength="20">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" align="center">Prenom</td>
+            </tr>
+            <tr>
+                <td>
+                    <form action="Inscriptions.html" method="post">
+                        <input type="text" required maxlength="20">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" align="center">Date de naissance</td>
+            </tr>
+            <td>
+               
+                    <input type="date" id="start" name="trip-start" value="" min="2001-01-01">
+                
+            </td>
+            <tr>
+                <td rowspan="2" align="center">Sexe</td>
+            </tr>
+            <td>
+                    <div>
+                        <input type="radio" id="Homme" name="Homme">
+                        <label for="Homme">Homme</label>
+                        <input type="radio" id="Femme" name="Femme">
+                        <label for="Femme">Femme</label>
+                    </div>
+            </td>
+            <tr>
+                <td rowspan="2" align="center">Adresse mail</td>
+            </tr>
+            <td>
+                <input type="email" id="email" placeholder="@gmail.com" pattern=".+@gmail.com" required>
+            </td>
+            <tr>
+                <td rowspan="2" align="center">Telephone</td>
+            </tr>
+            <td>
+                <input type="tel" id="phone" name="phone" pattern="[12-345-678]" placeholder="12-345-678" size="20"
+                    required>
+            </td>
+            <tr>
+                <td rowspan="2" align="center">Profession</td>
+            </tr>
+            <td>
+                <select name="Profession" id="Profession">
+                    <option value="étudiant">étudiant</option>
+                    <option value="Enseignant">Enseignant</option>
+                    <option value="Ingénieur">Ingénieur</option>
+                </select>
+            </td>
+            <tr>
+                <td rowspan="2" align="center">Adresse</td>
+            </tr>
+            <td>
+                <textarea name="" id="" cols="22" rows="6"></textarea>
+            </td>
+            <tr>
+                <td rowspan="8" align="center">Préferences</td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="1">Style de Musique</td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <input type="checkbox" id="R&B">
+                    <label for="scales">R&B</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="Rock">
+                    <label for="scales">Rock</label>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <input type="checkbox" id="Soul">
+                    <label for="scales">Soul</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="electronic">
+                    <label for="scales">electronic</label>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <input type="checkbox" id="Jazz">
+                    <label for="scales">Jazz</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="Classic">
+                    <label for="scales">Classic</label>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="7" align="center">Information de connexion</td>
+            </tr>
+            <tr>
+                <td rowspan="2" align="center">Login</td>
+            </tr>
+            <tr>
+                <td>
+                    <form action="Inscriptions.html" method="post">
+                        <input type="text" required maxlength="20">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" align="center">Mot de passe</td>
+            </tr>
+            <tr>
+                <td>
+                    <form action="Inscriptions.html" method="post">
+                        <input type="password" required minlength="10">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" align="center">Confirmer Mot de passe</td>
+            </tr>
+            <tr>
+                <td>
+                    <form action="Inscriptions.html" method="post">
+                        <input type="password" required minlength="10">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="3" align="center"></td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">
+                    <input type="submit" value="Envoyer">
+                </td>
+            </tr>
+            <tr>
+                <td> <input type="submit" value="Annuler"> </td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
